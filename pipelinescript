@@ -7,7 +7,7 @@ pipeline {
      stages{
         stage("Git Checkout"){
             steps{
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/Aj7Ay/Petclinic.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/damodarddr/Trivy.git'
             }
         }
         stage("Compile"){
